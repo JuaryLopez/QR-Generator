@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de QR´s</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <h2>Wifi Login</h2>
+        <div class="internal">
+            <img id="qrcode" width="164" src="https://api.qrserver.com/v1/create-qr-code/?size=164x164&data=todo">
+            <div class="inputs">
+                <label>
+                    Network name
+                    <input class="ssid" placeholder="Wifi Network Name">
+                </label>
+                <label>
+                    Password
+                    <input class="password" placeholder="Password">
+                </label>
+            </div>
+        </div>
+        <p>
+            Point your phone's camera at the QR code to connect to WIFI
+        </p>
+        <button type="button">Download QR Code</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
