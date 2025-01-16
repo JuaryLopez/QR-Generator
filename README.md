@@ -1,8 +1,8 @@
-Contribución
-¡Las contribuciones son bienvenidas! Por favor, abre un issue o envía un pull request.
+Contribution
+Contributions are welcome! Please open an issue or send a pull request.
 
-Licencia
-Este proyecto está licenciado bajo la Licencia MIT.
+License
+This project is licensed under the MIT License.
 
-Contacto
-Para preguntas o soporte, contacta a diegoalfredotellez@gmail.com.
+Contact
+For questions or support, contact diegoalfredotellez@gmail.com.
